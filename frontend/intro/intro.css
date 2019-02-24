@@ -1,0 +1,21 @@
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1.6fr 0.4fr 1fr 1fr 0.4fr 1.6fr;
+    grid-template-areas: ". . . ." ". hello image ." ". bio bio ." ". projects blog ." ". projects blog ." ". footer footer ." ". . . .";
+  }
+  
+  .projects { grid-area: projects; }
+  
+  .blog { grid-area: blog; }
+  
+  .hello { grid-area: hello; }
+  
+  .bio { grid-area: bio; }
+  
+  .image { grid-area: image; }
+  
+  .footer { grid-area: footer; }
