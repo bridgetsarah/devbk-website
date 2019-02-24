@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr 1.3fr 2.3fr;
+    grid-template-areas: "hidden header header hidden" "hidden menu menu hidden" "hidden rota rota hidden" "hidden articles articles hidden";
+  }
+  
+  .menu { grid-area: menu; }
+  
+  .rota { grid-area: rota; }
+  
+  .articles { grid-area: articles; }
+  
+  .hidden { grid-area: hidden; }
+  
+  .hidden { grid-area: hidden; }
+  
+  .header { grid-area: header; }
