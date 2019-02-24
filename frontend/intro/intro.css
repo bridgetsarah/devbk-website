@@ -1,5 +1,4 @@
-
-
+  /* Introduction Splash CSS */
 
 .grid-container {
     display: grid;
@@ -8,14 +7,33 @@
     grid-template-areas: ". . . ." ". hello image ." ". bio bio ." ". projects blog ." ". projects blog ." ". footer footer ." ". . . .";
   }
   
-  .projects { grid-area: projects; }
+  .projects { 
+    grid-area:projects; 
+    text-align: center;
+
+  }
   
-  .blog { grid-area: blog; }
-  
+  .blog { 
+    grid-area: blog;
+    text-align: center;
+
+  }
+
+
   .hello { grid-area: hello; }
   
-  .bio { grid-area: bio; }
+  .bio { 
+    grid-area: bio;
+    text-align: center;
+  }
   
-  .image { grid-area: image; }
+  .image { 
+    grid-area: image;
+    background-color: black
+  }
   
-  .footer { grid-area: footer; }
+  .footer { 
+    grid-area: footer;
+    text-align: center;
+    text-decoration-color: white;
+  }
